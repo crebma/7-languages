@@ -28,6 +28,17 @@ Given |Result
 4  |[2,2]
 and so on.
 
+### Testing your setup & getting external dependencies
+To test your setup, run the tests for each exercise on the command line once you've cloned this and installe dall prereqs:
+
+* ruby - run `bundle` in the ruby folder
+* clojure - run `lein test` from clojure/prime_factors
+* haskell - run `ghci` from the haskell folder and then `main` at the `Prelude>` prompt
+* rust - run `cargo test` in the rust folder
+* scala - run `sbt test` in the scala folder
+* elixir - run `mix test` from elixir/prime_factors
+* go - run `ginkgo` from the go folder
+
 ## Prerequisites
 * A text editor of your choosing. I like Atom, but you do you.
 
