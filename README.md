@@ -31,7 +31,7 @@ and so on.
 ### Testing your setup & getting external dependencies
 To test your setup, run the tests for each exercise on the command line once you've cloned this and installe dall prereqs:
 
-* ruby - run `bundle` in the ruby folder
+* ruby - run `bundle` in the ruby folder, and once bundled, run `rspec primes_factors_spec.rb`
 * clojure - run `lein test` from clojure/prime_factors
 * haskell - run `ghci` from the haskell folder and then `main` at the `Prelude>` prompt
 * rust - run `cargo test` in the rust folder
