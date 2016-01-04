@@ -29,7 +29,7 @@ Given |Result
 and so on.
 
 ### Testing your setup & getting external dependencies
-To test your setup, run the tests for each exercise on the command line once you've cloned this and installe dall prereqs:
+To test your setup, run the tests for each exercise on the command line once you've cloned this and installed all prereqs:
 
 * ruby - run `bundle` in the ruby folder, and once bundled, run `rspec primes_factors_spec.rb`
 * clojure - run `lein test` from clojure/prime_factors
