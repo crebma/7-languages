@@ -60,7 +60,7 @@ To test your setup, run the tests for each exercise on the command line once you
 
 ### Scala
 * scala 2.11.* (http://www.scala-lang.org/download/install.html)
-* sbt 2.2.4 (http://www.scala-sbt.org/)
+* sbt 0.13.9 (http://www.scala-sbt.org/)
 
 ### Elixir
 * elixir 1.1.1 (http://elixir-lang.org/install.html)
