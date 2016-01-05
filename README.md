@@ -69,5 +69,5 @@ To test your setup, run the tests for each exercise on the command line once you
 * go 1.5.1 (https://golang.org/doc/install)
 * set the environment variable `GOPATH` to point at wherever you want to store go directories. in my case, on os x, that is "$HOME/code/crebma/7-languages/go"
 * add `$GOPATH/bin` to your path variable
-* go get github.com/onsi/ginkgo/ginkgo
-* go get github.com/onsi/gomega
+* `go get github.com/onsi/ginkgo/ginkgo`
+* `go get github.com/onsi/gomega`
