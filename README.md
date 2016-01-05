@@ -53,7 +53,7 @@ To test your setup, run the tests for each exercise on the command line once you
 
 ### Haskell
 * haskell-platform 7.10.3 (https://www.haskell.org/platform/)
-* os x: you will need to open xcode and agree to the license in order to run ghci
+* os x: you will need to open xcode and agree to the license in order to run ghci from the command line
 
 ### Rust
 * rust 1.5.0 (https://www.rust-lang.org/downloads.html)
