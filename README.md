@@ -65,6 +65,6 @@ To test your setup, run the tests for each exercise on the command line once you
 * clojure - run `lein test` from clojure/prime_factors
 * haskell - run `cabal install` from the haskell folder and then `ghci PrimeFactors_Test.hs` and then `main` at the `Prelude>` prompt
 * rust - run `cargo test` in the rust folder
-* scala - run `sbt test` in the scala folder
+* elm - run `elm test` in the elm folder
 * elixir - run `mix test` from elixir/prime_factors
 * go - run `ginkgo` from the go folder
