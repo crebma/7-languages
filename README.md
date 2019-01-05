@@ -42,7 +42,6 @@ and so on.
 
 ### Haskell
 * haskell-platform 8.6.3 (https://www.haskell.org/platform/)
-* os x: you will need to open xcode and agree to the license in order to run ghci from the command line
 
 ### Rust
 * rust 1.31.0 (https://www.rust-lang.org/downloads.html)
@@ -63,7 +62,7 @@ To test your setup, run the tests for each exercise on the command line once you
 
 * ruby - run `bundle` in the ruby folder, and once bundled, run `rspec prime_factors_spec.rb`
 * clojure - run `lein test` from clojure/prime_factors
-* haskell - run `cabal install` from the haskell folder and then `ghci PrimeFactors_Test.hs` and then `main` at the `Prelude>` prompt
+* haskell - run `stack install` from the haskell folder and then `stack test`
 * rust - run `cargo test` in the rust folder
 * elm - run `elm test` in the elm folder
 * elixir - run `mix test` from elixir/prime_factors
