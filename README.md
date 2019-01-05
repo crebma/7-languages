@@ -28,46 +28,43 @@ Given |Result
 4  |[2,2]
 and so on.
 
+## Prerequisites
+* A text editor of your choosing. I like Atom, but you do you.
+
+### Ruby
+* ruby 2.6.0 (https://www.ruby-lang.org/)
+* rubygems 3.0.2 (https://rubygems.org/pages/download)
+* bundler 2.0 (http://bundler.io/)
+
+### Clojure
+* clojure 1.10.0 (https://clojure.org/guides/getting_started)
+* leiningen 2.8.3 (https://leiningen.org/)
+
+### Haskell
+* haskell-platform 8.6.3 (https://www.haskell.org/platform/)
+* os x: you will need to open xcode and agree to the license in order to run ghci from the command line
+
+### Rust
+* rust 1.31.0 (https://www.rust-lang.org/downloads.html)
+
+### Elm
+* elm 0.19.0 (https://guide.elm-lang.org/install.html)
+
+### Elixir
+* elixir 1.7.4 (http://elixir-lang.org/install.html)
+
+### Go
+* go 1.11.4 (https://golang.org/dl/)
+* run `go get github.com/onsi/ginkgo/ginkgo` in the go folder
+* run `go get github.com/onsi/gomega` in the go folder
+
 ### Testing your setup & getting external dependencies
 To test your setup, run the tests for each exercise on the command line once you've cloned this and installed all prereqs:
 
 * ruby - run `bundle` in the ruby folder, and once bundled, run `rspec prime_factors_spec.rb`
 * clojure - run `lein test` from clojure/prime_factors
-* haskell - run `ghci PrimeFactors_Test.hs` from the haskell folder and then `main` at the `Prelude>` prompt
+* haskell - run `cabal install` from the haskell folder and then `ghci PrimeFactors_Test.hs` and then `main` at the `Prelude>` prompt
 * rust - run `cargo test` in the rust folder
 * scala - run `sbt test` in the scala folder
 * elixir - run `mix test` from elixir/prime_factors
 * go - run `ginkgo` from the go folder
-
-## Prerequisites
-* A text editor of your choosing. I like Atom, but you do you.
-
-### Ruby
-* ruby 2.1.5 (https://www.ruby-lang.org/en/documentation/installation/)
-* rubygems 2.2.2 (https://rubygems.org/pages/download)
-* bundler 1.7.8 (http://bundler.io/)
-
-### Clojure
-* JDK 6
-* leiningen 2.5.1 (http://leiningen.org/)
-
-### Haskell
-* haskell-platform 7.10.3 (https://www.haskell.org/platform/)
-* os x: you will need to open xcode and agree to the license in order to run ghci from the command line
-
-### Rust
-* rust 1.5.0 (https://www.rust-lang.org/downloads.html)
-
-### Scala
-* scala 2.11.* (http://www.scala-lang.org/download/install.html)
-* sbt 0.13.9 (http://www.scala-sbt.org/)
-
-### Elixir
-* elixir 1.1.1 (http://elixir-lang.org/install.html)
-
-### Go
-* go 1.5.1 (https://golang.org/doc/install)
-* set the environment variable `GOPATH` to point at wherever you want to store go directories. in my case, on os x, that is "$HOME/code/crebma/7-languages/go"
-* add `$GOPATH/bin` to your path variable
-* `go get github.com/onsi/ginkgo/ginkgo`
-* `go get github.com/onsi/gomega`

@@ -4,7 +4,7 @@ defmodule PF.Mixfile do
   def project do
     [app: :prime_factors,
      version: "0.0.1",
-     elixir: "~> 1.1",
+     elixir: "~> 1.7.4",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps]
