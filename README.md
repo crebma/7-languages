@@ -67,4 +67,4 @@ To test your setup, run the tests for each exercise on the command line once you
 * rust - run `cargo test` in the rust folder
 * elm - run `elm-test` in the elm folder
 * elixir - run `mix test` from elixir/prime_factors
-* go - run `ginkgo` from the go folder
+* go - run `go mod download` and then run `ginkgo` from the go folder
