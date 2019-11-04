@@ -48,6 +48,7 @@ and so on.
 
 ### Elm
 * elm 0.19.0 (https://guide.elm-lang.org/install.html)
+* elm-test 0.19.0-rev3 (https://www.npmjs.com/package/elm-test)
 
 ### Elixir
 * elixir 1.7.4 (http://elixir-lang.org/install.html)
@@ -64,6 +65,6 @@ To test your setup, run the tests for each exercise on the command line once you
 * clojure - run `lein test` from clojure/prime_factors
 * haskell - run `stack install` from the haskell folder and then `stack test`
 * rust - run `cargo test` in the rust folder
-* elm - run `elm test` in the elm folder
+* elm - run `elm-test` in the elm folder
 * elixir - run `mix test` from elixir/prime_factors
 * go - run `ginkgo` from the go folder
