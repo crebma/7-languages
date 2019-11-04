@@ -63,7 +63,7 @@ To test your setup, run the tests for each exercise on the command line once you
 
 * ruby - run `bundle` in the ruby folder, and once bundled, run `rspec prime_factors_spec.rb`
 * clojure - run `lein test` from clojure/prime_factors
-* haskell - run `stack install` from the haskell folder and then `stack test`
+* haskell - run `stack install` from the haskell/prime-factors folder and then `stack test`
 * rust - run `cargo test` in the rust folder
 * elm - run `elm-test` in the elm folder
 * elixir - run `mix test` from elixir/prime_factors
